@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: Roboto;
+}
+
+body,
+button,
+.font-size-14 {
+  font-size: 14px;
+}
+
+body,
+.color-gray {
+  color: #55565a;
+}
+
+.info-bar {
+  background-color: #906d4e;
+}
+
+.background-blue {
+  background-color: #00a0d2;
+}
+
+.background-brown {
+  background-color: #906d4e;
+}
+
+.color-brown {
+  color: #906d4e;
+}
+
+.hero-page {
+  position: relative;
+  background-image: url(../img/pexels-antoni-shkraba-5862282.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255, 0.8);
+
+  z-index: 1;
+}
+
+.hero-page .container {
+  position: relative;
+  z-index: 2;
+}
+
+.nav-item > a {
+  letter-spacing: 0px;
+}
+
+.hero-section h1 {
+  font-size: 54px;
+}
+
+.horizantol-ruler {
+  border: 1.5px solid #906d4e;
+  opacity: 1;
+}
+
+.brand-heading h2 {
+  font-size: 24px;
+  color: #55565a;
+}
+
+.plan-heading {
+  font-size: 28px;
+}
+
+/* -- Media Queries -- */
+
+@media (min-width: 991px) {
+  .info-bar {
+    height: 50px;
+  }
+  .hero-section {
+    height: 100vh;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+  (min--moz-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .hero-page {
+    background-image: url(../img/pexels-antoni-shkraba-5862282@2x.png);
+  }
+}
