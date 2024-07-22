@@ -2,6 +2,8 @@
 
 body {
   font-family: Roboto;
+  letter-spacing: 0;
+  max-width: 100vw;
 }
 
 body,
@@ -27,8 +29,28 @@ body,
   background-color: #906d4e;
 }
 
+.color-light {
+  color: #d2d2d2;
+}
+
 .color-brown {
   color: #906d4e;
+}
+
+.font-size-12 {
+  font-size: 12;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-20 {
+  font-size: 20px;
 }
 
 .hero-page {
@@ -55,12 +77,9 @@ body,
   z-index: 2;
 }
 
-.nav-item > a {
+.nav-item > a,
+.letter-spacing-0 {
   letter-spacing: 0px;
-}
-
-.hero-section h1 {
-  font-size: 54px;
 }
 
 .horizantol-ruler {
@@ -77,6 +96,45 @@ body,
   font-size: 28px;
 }
 
+.three-cards:hover {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.background-logo {
+  background-image: url(../img/Group\ 73.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: right;
+}
+
+.strategy-section {
+  background-color: #fffcf9;
+}
+
+.brown-outline-button {
+  border: 2px solid #906d4e;
+}
+
+.background-umbrella {
+  background-image: url(../img/Group\ 82.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.strategy-section {
+  background-image: url(../img/Group\ 70.svg);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.background-doctor {
+  background-image: url(../img/Group\ 698.svg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
 /* -- Media Queries -- */
 
 @media (min-width: 991px) {
@@ -85,6 +143,9 @@ body,
   }
   .hero-section {
     height: 100vh;
+  }
+  .hero-section h1 {
+    font-size: 54px;
   }
 }
 
