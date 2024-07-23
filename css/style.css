@@ -135,6 +135,19 @@ body,
   background-repeat: no-repeat;
 }
 
+.footer {
+  z-index: 0;
+}
+
+.place {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.place::placeholder {
+  color: #fff;
+}
+
 /* -- Media Queries -- */
 
 @media (min-width: 991px) {
@@ -146,6 +159,9 @@ body,
   }
   .hero-section h1 {
     font-size: 54px;
+  }
+  .main-footer {
+    height: 70px;
   }
 }
 
