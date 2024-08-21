@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5,p {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0;
+  color: #55565A;
+  opacity: 1;
+}
+
+span{
+  letter-spacing: 0;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.hero-heading,h1{
+  font-size: clamp(30px, 5.4vw, 54px);
+}
+
+h2 {
+  font-size: clamp(22px, 2.8vw, 28px);
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+h3 {
+  font-size: clamp(20px, 2.4vw, 24px);
+  font-weight: 700;
+  margin-bottom: 7.5px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+span,p{
+  font-size:14px;
+  font-weight: 400;
+}
+
+.investing-heading-card{
+  font-size: 20px;
+  font-weight: 400;
+  color: #906D4E;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.investing-heading-card-2{
+  font-size: 24px;
+  font-weight: 500;
+  color: #906D4E;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+
+/*    ====>  Utility Classes  <====    */
+
+.vertical-ruler{
+  width: 0px;
+  height: 35px;
+  border: 1px solid #E8E8E8;
+  opacity: 1;
+}
+
+.horizantol-ruler {
+  margin:0 auto;
+  max-width: 167px;
+  height: 0px;
+  border: 2px solid #906D4E;
+  opacity: 1;
+}
+
+button {
+  font-size: 14px;
+  border-radius: 23px;
+  border: none;
+}
+
+.button-1 {
+  width: 306px;
+  height: 45px;
+  background-color: #906D4E;
+  color: #fff;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.button-1:hover{
+  background-color: transparent;
+  color:#906D4E;
+  border: 2px solid #906D4E;
+}
+
+.button-2 {
+  width: 313.57px;
+  color: #906D4E;
+  background-color: transparent;
+  border: 1px solid #906D4E;
+  transition: all 0.3s;
+}
+
+.button-2:hover{
+  color: #fff;
+  background-color: #906D4E;
+  border: 1px solid #906D4E;
+}
+
+.button-3 {
+  width: 245.02px;
+  color: #906D4E;
+  background-color: transparent;
+  border: 1px solid #906D4E;
+  transition: all 0.3s;
+}
+
+.card-1{
+  max-width: 467px;
+  height: 249px;
+  background-color:#906D4E;
+  color: #fff;
+  border-radius: 8px;
+  opacity: 1;
+  padding: 28px 35px;
+  transition: all 0.3s;
+}
+
+.card-1:hover{
+  box-shadow: 0px 0px 12px #0000001A;
+  background-color: #fff;
+  color: #906D4E;
+}
+
+.card-2{
+  max-width: 504px;
+  min-height: 190px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px #00000029;
+  padding-top: 39.14px;
+  padding-bottom: 35.86px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.card-3{
+  max-width: 467px;
+  min-height: 233px;
+  border-radius: 8px;
+  background-color: #906D4E;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.card-3:hover{
+  box-shadow: 0px 0px 12px #0000000D;
+  background-color: #fff;
+  color: #906D4E;
+}
+
+.card-4{
+  max-width: 590px;
+  min-height: 185px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.card-4:hover{
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.card-5{
+  max-width: 280.03px;
+  height: 159px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 8px; 
+}
+
+.box-1{
+  max-width: 333px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-bottom: 66px;
+  padding-top: 48px;
+  transition: all 0.3s;
+}
+
+.box-1:hover{
+  box-shadow: 0px 0px 12px #0000001A;
+}
+
+.box-2{
+  max-width: 247px;
+  min-height: 247px;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-top: 51px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  transition: all 0.3s;
+}
+
+.box-2:hover{
+  box-shadow: 0px 0px 6px #00000029;
+}
+
+.no-scroll{
+  overflow: hidden;
+}
+
+.blur-sidebar{
+  filter: blur(10px);
+}
