@@ -332,9 +332,13 @@ nav{
 }
 
 .fee-section-design-image-1{
-  margin-top: 58.6px;
-  padding-left: 318px;
-  margin-bottom: 10.5px;
+  position: relative;
+}
+
+.fee-section-design-image-1 img{
+  position: absolute;
+  top: 58.6px;
+  left: 23%;
 }
 
 /* .fee-section-design-image-2{
@@ -419,10 +423,6 @@ nav{
   }
   .fee-section-img{
     max-width: 350px;
-  }
-  .fee-section-design-image-1{
-    margin-top: 40px;
-    padding-left:150px;
   }
 }
 
