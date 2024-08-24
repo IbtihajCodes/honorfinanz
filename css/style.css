@@ -1229,14 +1229,11 @@ footer{
     height: 25px;
     display: flex;
     justify-content: flex-start;
-
   }
   .swiper-slide{
     width: 300px;
     height: 25px;
-
   }
-
   .swiper-slide img{
     width: 300px;
     height: 25px;
