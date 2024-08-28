@@ -19,7 +19,7 @@ h1 {
   font-weight: 400;
 }
 
-.hero-heading,h1{
+.hero-heading,h1,.special{
   font-size: clamp(30px, 5.4vw, 54px);
 }
 
@@ -149,7 +149,7 @@ button {
 
 .card-2{
   max-width: 504px;
-  min-height: 190px;
+  height: 190px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px 3px 6px #00000029;
@@ -159,9 +159,15 @@ button {
   padding-right: 35px;
 }
 
+@media(max-width:1069px){
+  .card-2{
+    height: auto;
+  }
+}
+
 .card-3{
   max-width: 467px;
-  min-height: 233px;
+  height: 233px;
   border-radius: 8px;
   background-color: #906D4E;
   color: #fff;
@@ -213,7 +219,7 @@ button {
   min-height: 247px;
   background-color: #fff;
   border-radius: 12px;
-  margin-top: 51px;
+  margin-top: 51.5px;
   display: flex;
   flex-direction: column;
   justify-content: center;

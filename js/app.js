@@ -9,6 +9,7 @@ const closeBtn = document.getElementById("close-btn");
 const heroPage = document.querySelector(".hero-page");
 
 // Side Bar
+// ===>> Open - SideBar Button <<===  //
 hamBurger.addEventListener("click", function () {
   sideBar.classList.remove("d-none");
   navBar.classList.add("blur-sidebar");
@@ -17,6 +18,7 @@ hamBurger.addEventListener("click", function () {
   body.classList.add("no-scroll");
 });
 
+// ===>> Close - SideBar Button <<===  //
 closeBtn.addEventListener("click", function () {
   sideBar.classList.add("d-none");
   navBar.classList.remove("blur-sidebar");
