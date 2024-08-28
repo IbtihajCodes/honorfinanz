@@ -1242,6 +1242,7 @@ footer{
 
 .swiper-wrapper{
   display: flex;
+  justify-content: space-evenly;
   gap: 69px;
   width: 1130px;
   margin:0 auto;
