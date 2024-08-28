@@ -90,8 +90,7 @@
 }
 
 .hero-section .container-fluid{
-  background-color: #fff;
-  opacity: 0.8;
+  background-color: rgb(255,255,255,0.8);
   height: 100%;
   width: 100%;
   padding: 0;
@@ -859,9 +858,15 @@ nav{
   justify-content: flex-start;
   gap: 19px;
   background-color: #fff;
+}
+
+.news-card-plus{
   margin-top: 49.98px;
 }
 
+.news-card-minus{
+  margin-top: 34.98px;
+}
 
 
 .news-header{
@@ -919,6 +924,12 @@ max-width: 431px;
 .news-button:hover{
   color: #fff;
   background-color: #906D4E;
+}
+
+@media(max-width: 992px){
+  .news-card-minus,.news-card-plus{
+    margin-top:49.98px;
+  }
 }
 
 @media(min-width: 992px){
@@ -1073,7 +1084,7 @@ max-width: 431px;
 }
 
 .foot-col{
-  margin-bottom: 30.79px;
+  margin-bottom: 34.26px;
 }
 
 .foot-col-1{
@@ -1225,6 +1236,8 @@ footer{
   height: 25px;
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .swiper-wrapper{
