@@ -87,6 +87,13 @@
 .hero-section{
   background-image: url(../img/hero-page.png);
   background-size: cover;
+  /* background-position: center center; */
+}
+
+@media(max-width: 1000px){
+  .hero-section{
+    background-position: center center;
+  }
 }
 
 .hero-section .container-fluid{
@@ -1244,7 +1251,7 @@ footer{
   display: flex;
   justify-content: space-evenly;
   gap: 69px;
-  width: 1130px;
+  max-width: 1130px;
   margin:0 auto;
   overflow: hidden;
 }
@@ -1267,7 +1274,35 @@ footer{
   left: 67px;
 }
 
+@media(max-width: 1290px){
+  .swiper-wrapper{
+    width: 1000px;
+  }
+}
 
+@media(max-width: 1170px){
+  .swiper-wrapper{
+    width: 870px;
+  }
+}
+
+@media(max-width: 1045px){
+  .swiper-wrapper{
+    width: 600px;
+  }
+}
+
+@media(max-width: 900px){
+  .swiper-wrapper{
+    width: 400px;
+  }
+}
+
+@media(max-width: 813px){
+  .swiper-wrapper{
+    width: 200px;
+  }
+}
 /* Fixes : */
 
 .logo-box svg{
