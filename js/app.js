@@ -25,4 +25,5 @@ closeBtn.addEventListener("click", function () {
   infoBar.classList.remove("blur-sidebar");
   heroPage.classList.remove("blur-sidebar");
   body.classList.remove("no-scroll");
+  console.log("Button was clicked");
 });

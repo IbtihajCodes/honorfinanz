@@ -209,7 +209,7 @@ nav{
 .sidebar-logo{
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 @media(max-width: 1272px){
@@ -262,11 +262,11 @@ nav{
 
 #hero-head{
   max-width: 590px;
-  /* margin:0 auto; */
+  margin:0 auto;
 }
 
 .hero-heading{
-  display: inline-block;
+  display:inline;
 }
 
 .hero-ruler{
@@ -349,14 +349,20 @@ nav{
 .fee-section-design-image-1 img{
   position: absolute;
   top: 58.6px;
-  left: 23%;
+  left: 20%;
 }
 
 .fee-section-design-image-2{
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.fee-section-design-image-2 img{
   position: absolute;
   right:0;
-  top: 50%;
+  top: 245px;
   z-index:-1;
+  /* overflow-x: hidden; */
 }
 
 
@@ -1215,92 +1221,42 @@ footer{
 /* Image Slider */
 
 .swiper{
+  margin-top: 50px;
   height: 25px;
   position: relative;
-  margin-top: 50px;
+  overflow: hidden;
 }
 
 .swiper-wrapper{
   display: flex;
-  justify-content: flex-start;
-  width: 87.900vw;
   gap: 69px;
-  margin: 0 auto;
+  width: 1130px;
+  margin:0 auto;
   overflow: hidden;
 }
 
-.custom-button-next,.custom-button-prev{
-  position: absolute;
-  top:50%;
-  transform: translateY(-50%);
-}
-
-.swiper-slide{
-  display: flex;
-  justify-content: center;
-}
-
 .swiper-slide img{
-  margin:0 auto;
+  object-fit: contain;
 }
 
-.custom-button-prev{
-  right: 4.905vw;
+.swiper-button-next,.custom-button-next{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 67px;
 }
 
-.custom-button-next{
-  left: 4.905vw;
+.swiper-button-prev,.custom-button-prev{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 67px;
 }
+
+
+/* Fixes : */
 
 .logo-box svg{
   cursor: pointer;
 }
-
-@media (max-width: 320px){
-  .swiper-wrapper{
-    width: 300px;
-    height: 25px;
-    display: flex;
-    justify-content: flex-start;
-  }
-  .swiper-slide{
-    width: 300px;
-    height: 25px;
-  }
-  .swiper-slide img{
-    width: 300px;
-    height: 25px;
-    object-fit: contain;
-  }
-}
-
-@media(max-width: 425px){
-  .swiper-wrapper{
-    width: 300px;
-    height: 25px;
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .swiper-slide img{
-    width: 340px;
-    object-fit: contain;
-  }
-}
-
-@media(max-width: 716px){
-  .swiper-wrapper{
-    width: 300px;
-    height: 25px;
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .swiper-slide img{
-    width: 340px;
-    object-fit: contain;
-  }
-}
-
-/* Fixes : */
 
