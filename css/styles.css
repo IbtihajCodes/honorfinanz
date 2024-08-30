@@ -240,3 +240,8 @@ button {
 .blur-sidebar{
   filter: blur(10px);
 }
+
+.nav-centered{
+  display: flex;
+  align-items: center;
+}

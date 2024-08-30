@@ -8,7 +8,7 @@ const body = document.querySelector("body");
 const closeBtn = document.getElementById("close-btn");
 const heroPage = document.querySelector(".hero-page");
 
-// Side Bar
+// Side Bar :
 // ===>> Open - SideBar Button <<===  //
 hamBurger.addEventListener("click", function () {
   sideBar.classList.remove("d-none");
@@ -16,6 +16,7 @@ hamBurger.addEventListener("click", function () {
   infoBar.classList.add("blur-sidebar");
   heroPage.classList.add("blur-sidebar");
   body.classList.add("no-scroll");
+  console.log("SideBar was opened");
 });
 
 // ===>> Close - SideBar Button <<===  //
@@ -25,5 +26,5 @@ closeBtn.addEventListener("click", function () {
   infoBar.classList.remove("blur-sidebar");
   heroPage.classList.remove("blur-sidebar");
   body.classList.remove("no-scroll");
-  console.log("Button was clicked");
+  console.log("SideBar was closed");
 });
